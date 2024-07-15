@@ -1,0 +1,14 @@
+h3 {
+    text-align: center;
+}
+.tour-plan {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+    .tour-plan {
+        grid-template-columns: 1fr;
+    }
+}

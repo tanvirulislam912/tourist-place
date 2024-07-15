@@ -1,0 +1,17 @@
+.answer-container {
+    background-color: rgb(215, 239, 215);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.answer {
+    border: 1px solid rgba(0, 100, 0, 0.579);
+    background-color: rgb(146, 213, 146);
+    border-radius: 10px;
+    margin: 1em;
+    min-height: 23em;
+}
+@media only screen and (max-width: 767px) {
+    .answer-container {
+        grid-template-columns: 1fr;
+    }
+}

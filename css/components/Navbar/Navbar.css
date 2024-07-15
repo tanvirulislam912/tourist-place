@@ -1,0 +1,15 @@
+.nav-bar {
+    color: white;
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-bar img {
+    height: 60px;
+    width: 150px;
+}
